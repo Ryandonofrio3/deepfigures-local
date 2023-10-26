@@ -1,3 +1,7 @@
+
+**Issue: Currently getting the docker container set up but seems that there is no module named rect? I can see in vendor/tensorboxresnet/tensorboxresnet/utils that Stitch_wrapper.pyx is calling rect.py not sure why it wouldnt be found? **
+
+
 PS C:\Users\donofrio\Documents\GitHub\deepfigures-open> python .\manage.py detectfigures .\output\ .\test1.pdf
 2023-10-25 18:02:36,342:INFO:scripts.build:Executing: docker build --tag deepfigures-cpu:0.0.1 --file C:\Users\donofrio\Documents\GitHub\deepfigures-open\dockerfiles/cpu/Dockerfile .      
 [+] Building 2.8s (23/23) FINISHED                                             docker:default
